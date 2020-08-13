@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+}
+table, tr, td {
+    border: 1px #ccc solid;
+}
+table {
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+td {
+    width: 25px;
+}
+tr {
+    height: 25px;
+}
+input[type=submit] {
+    margin-right: 2em;
+}
+input[type=number] {
+    width: 3em;
+    margin-right: 10px;
+}
+@media screen and (max-width: 480px) {
+    table {
+        margin: 10px auto;
+    }
+    tr {
+        height: 30px;
+    }
+    td {
+        width: 30px;
+    }
+}

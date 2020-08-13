@@ -1,0 +1,13 @@
+button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    height: 23px;
+    width: 60px;
+    align-items: center;
+    border-radius: 11%;
+}
+button:hover {
+    background-color: lavender;
+    border-width: 3px;
+}
